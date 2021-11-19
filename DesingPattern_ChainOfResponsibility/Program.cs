@@ -10,7 +10,7 @@ namespace DesingPattern_ChainOfResponsibility
         {
             CalculadorDeDesconto calculador = new CalculadorDeDesconto();
 
-            Orcamento orcamento = new Orcamento(600.0);
+            Orcamento orcamento = new Orcamento(500.0);
             orcamento.AdicionaItem(new Item("CANETA", 250.0));
             orcamento.AdicionaItem(new Item("LAPIS", 250.0));
 
